@@ -23,6 +23,7 @@ As such, those are in use within the default layer at this time.*/
 / {
     keymap {
         compatible = "zmk,keymap";
+        display-name = "Base"; 
 
         default_layer {
             // ---------------------------------------------------------------------------------------------------------------------------------
@@ -42,6 +43,7 @@ As such, those are in use within the default layer at this time.*/
         };
 
         lower_layer {
+            display-name = "Lower";
             // ---------------------------------------------------------------------------------------------------------------------------------
             // |      |      |      |      |      |      |                                  |      |      |      |      |      |      |
             // |  ~   |  !   |  @   |  #   |  $   |  %   |                                  |  ^   |  &   |  *   |  (   |  )   |      |
@@ -59,6 +61,7 @@ As such, those are in use within the default layer at this time.*/
         };
 
         raise_layer {
+            display-name = "Raise";
             // ---------------------------------------------------------------------------------------------------------------------------------
             // |       |       |       |       |       |       |                                    |       |       |       |       |       |       |
             // |   `   |   1   |   2   |   3   |   4   |   5   |                                    |   6   |   7   |   8   |   9   |   0   |  DEL  |
@@ -76,6 +79,7 @@ As such, those are in use within the default layer at this time.*/
         };
 
         adjust_layer {
+            display-name = "Adjust"; 
             // ---------------------------------------------------------------------------------------------------------------------------------
             // |    `     |    !     |    @     |    #     |    $     |    %     |                                          |    ^     |    &     |    *     |    (     |    )     |  EP TOG  |
             // |  BT CLR  | BT SEL0  | BT SEL1  | BT SEL2  | BGT SEL3 | BT SEL4  |                                          | RGB EFF+ | RGB HUE+ | RGB SAT+ | RGB SPD+ | RGB BRI+ | RGB TOG  |
